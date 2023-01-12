@@ -11,7 +11,7 @@ const someData =  [
 ];
 
 router.get('/', (req, res) => {
-  res.json([{"message": "Hello World!"}])
+  res.json(someData);
 });
 
 //app.use("/.netlify/functions/api", router);
